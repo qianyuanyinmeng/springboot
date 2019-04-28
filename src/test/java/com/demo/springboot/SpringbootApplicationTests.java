@@ -12,6 +12,6 @@ public class SpringbootApplicationTests {
 
     @Test
     public void contextLoads() {
-        assert ("hello Bass!"== new HelloController().helloBass());
+        assert ("hello Bass!1"== new HelloController().helloBass());
     }
 }
