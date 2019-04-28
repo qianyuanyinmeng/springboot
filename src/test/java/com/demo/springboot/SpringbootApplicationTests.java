@@ -1,5 +1,6 @@
 package com.demo.springboot;
 
+import com.demo.springboot.controller.HelloController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +12,6 @@ public class SpringbootApplicationTests {
 
     @Test
     public void contextLoads() {
+        assert ("hello Bass!"== new HelloController().helloBass());
     }
-
 }
